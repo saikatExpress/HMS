@@ -39,6 +39,13 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+    body {
+        background-color: #fff;
+    }
+    </style>
+
 </head>
 
 <body>
@@ -411,6 +418,9 @@
 
 
     <div class="hospital_info">
+        <div class="doctor_block_title">
+            <h2 class="head2">Information</h2>
+        </div>
         <div class="row myRow">
 
             <div class="col-lg-3">
@@ -656,18 +666,166 @@
 
     </div>
 
-    <div class="div">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolor ad reiciendis blanditiis ipsam quisquam
-            atque ea delectus eaque accusantium impedit, perspiciatis id et nemo praesentium harum nostrum in maiores
-            rem tempora aperiam consequatur? Labore voluptates voluptatum laudantium beatae ex dolore quidem, ullam
-            fugit. Libero unde nesciunt quo magnam. Amet consequuntur laboriosam consectetur culpa labore quisquam
-            inventore recusandae dolores deleniti explicabo. Maiores delectus suscipit ipsa fugit in sint quaerat
-            deserunt officiis et. Reprehenderit, sed mollitia neque explicabo aliquid ipsa eius consequatur corporis,
-            possimus incidunt ab odio fugiat aspernatur! Doloribus necessitatibus voluptate, modi id veniam tempore eos.
-            Illum dignissimos minus officiis?
-        </p>
-    </div>
+    <footer>
+        <div class="footerRow">
+
+
+            <div class="footer_block">
+                <div class="logo_img">
+                    <img src="logos/images.png" alt="no images">
+                </div>
+                <div class="logo_title">
+                    <p>
+                        Bangladesh Specialized Hospital has all the characteristics of a world-class hospital with wide
+                        range of services and specialists, equipments and technology, ambience and service quality.
+                    </p>
+                    <h6>[ Hotline - 101107 ]</h6>
+                </div>
+            </div>
+
+            <div class="footer_block">
+                <div class="logo_box">
+                    <h4>Quick Links</h4>
+                </div>
+
+                <div class="quick_link">
+                    <a href="">
+                        <p>
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Home
+                        </p>
+                    </a>
+                </div>
+
+                <div class="quick_link">
+                    <a href="">
+                        <p>
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> About
+                        </p>
+                    </a>
+                </div>
+
+                <div class="quick_link">
+                    <a href="">
+                        <p>
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Contact
+                        </p>
+                    </a>
+                </div>
+
+                <div class="quick_link">
+                    <a href="">
+                        <p>
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Appoinment
+                        </p>
+                    </a>
+                </div>
+
+                <div class="quick_link">
+                    <a href="">
+                        <p>
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Vaccination
+                        </p>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="footer_block">
+                <div class="logo_box">
+                    <h4>Social Links</h4>
+                </div>
+
+                <div class="quick_link">
+                    <a href="">
+                        <p>
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Facebook
+                        </p>
+                    </a>
+                </div>
+
+                <div class="quick_link">
+                    <a href="">
+                        <p>
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Instagram
+                        </p>
+                    </a>
+                </div>
+
+                <div class="quick_link">
+                    <a href="">
+                        <p>
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Twitter
+                        </p>
+                    </a>
+                </div>
+
+                <div class="quick_link">
+                    <a href="">
+                        <p>
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Linkedin
+                        </p>
+                    </a>
+                </div>
+
+                <div class="quick_link">
+                    <a href="">
+                        <p>
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Gmail
+                        </p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer_block">
+
+                <div class="project_languages">
+
+                    <div class="logo_box">
+                        <h4>Languages</h4>
+                    </div>
+
+                    <div class="languages_item">
+
+                        <div class="languages_item_img">
+                            <img src="images/html.png" alt="no images">
+                            <h6>HTML 5</h6>
+                        </div>
+
+
+                        <div class="languages_item_img">
+                            <img src="images/css.png" alt="no images">
+                            <h6>CSS 3</h6>
+                        </div>
+
+                        <div class="languages_item_img">
+                            <img src="images/js.png" alt="no images">
+                            <h6>JavaScript</h6>
+                        </div>
+
+                        <div class="languages_item_img">
+                            <img src="images/php.png" alt="no images">
+                            <h6>PHP</h6>
+                        </div>
+
+                        <div class="languages_item_img">
+                            <img src="images/xammp.png" alt="no images">
+                            <h6>Xampp</h6>
+                        </div>
+
+                        <div class="languages_item_img">
+                            <img src="images/my.png" alt="no images">
+                            <h6>mySql</h6>
+                        </div>
+
+                        php,html,css,xampp,javascript,mysql
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </footer>
 
 
 

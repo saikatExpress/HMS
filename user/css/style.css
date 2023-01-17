@@ -438,3 +438,117 @@ body {
   font-size: 15px;
   color: purple;
 }
+
+/**Footer block CSS code start from here**/
+.footerRow {
+  background-color: #000000e6;
+  margin: 10px 10px 10px;
+  border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_block {
+  width: 30%;
+  position: relative;
+  padding: 10px 12px 10px;
+}
+
+.logo_img img {
+  width: 100px;
+  margin: 10px 10px 10px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.logo_title p {
+  color: #fff;
+  padding: 8px 10px 8px;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 27px;
+}
+
+.logo_title h6 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 25px;
+  padding: 10px 12px 10px;
+}
+
+.logo_box {
+  position: relative;
+  margin: 8px 10px 8px;
+}
+
+.logo_box h4 {
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.logo_box h4::after {
+  position: absolute;
+  background-color: cyan;
+  width: 50px;
+  height: 2px;
+  top: 95%;
+  left: 3%;
+  content: "";
+}
+
+.quick_link {
+  padding: 8px 10px 8px;
+  margin: 5px 5px 5px;
+  position: relative;
+}
+
+.quick_link a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.quick_link p::after {
+  width: 10px;
+  height: 2px;
+  position: absolute;
+  background-color: #fff;
+  top: 90%;
+}
+
+.languages_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.languages_item_img {
+  margin: 10px 10px 10px;
+  width: 25%;
+}
+
+.languages_item_img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.languages_item_img h6 {
+  color: #fff;
+  margin: 5px;
+  font-size: 13px;
+  text-align: left;
+}
+
+.footer_address p {
+  color: #fff;
+  padding: 5px 7px 5px;
+}
+
+/**Footer block CSS code end from here**/
