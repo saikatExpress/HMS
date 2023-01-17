@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Baskerville", serif;
+}
+
+body {
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "proxima_novasemibold";
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  background: #eee;
+}
+
+/**Header Section CSS start from here**/
+
+.top_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+}
+
+.top_header_icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.top_header_icon a {
+  padding: 1px;
+  margin: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.heading6 {
+  color: #fff;
+  margin-bottom: 0;
+  padding: 5px;
+  margin: 5px;
+}
+
+.header_logo_menu ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+.logo_image {
+  width: 200px;
+  margin-left: 100px;
+  height: 70px;
+}
+
+.header_logo_menu {
+  background-color: aquamarine;
+}
+
+.header_logo_menu ul li {
+  padding: 10px;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.header_logo_div {
+  width: 35%;
+  background-color: #fff;
+  float: left;
+  border-bottom-right-radius: 80px 85px;
+}
+
+.main_header_fixed {
+  z-index: 1;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.main_content {
+  padding: 10px;
+}
+
+.sticky + .main_content {
+  padding-top: 102px;
+}
+
+.slideImages {
+  height: 350px;
+  width: 100%;
+}
+/**Header Section CSS end from here**/
+
+/**main body CSS code start from here**/
+
+.welcome_div {
+  padding: 5px;
+}
+
+.head_title {
+  position: relative;
+}
+
+.head_title h4 {
+  font-size: 25px;
+  color: darkblue;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.head_title h4::after {
+  content: " ";
+  background-color: green;
+  width: 135px;
+  top: 85%;
+  left: 3%;
+  height: 3px;
+  position: absolute;
+  border-top-right-radius: 5px;
+}
+
+.paragraph {
+  padding: 10px;
+  text-align: justify;
+  font-size: 14px;
+  color: #000;
+  line-height: 27px;
+}
+
+.welcome_image img {
+  width: 90%;
+  height: 200px;
+}
+
+.menu_link {
+  position: relative;
+}
+
+.menu_link a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+
+.menu_link a:hover::after {
+  content: "";
+  position: absolute;
+  background-color: blue;
+  width: 100%;
+  height: 2px;
+  top: 100%;
+  left: 0%;
+}
+
+.mission_list ul li b {
+  font-size: 15px;
+  color: #000;
+  font-weight: 600;
+}
+
+.vision_text p {
+  padding: 7px;
+  text-align: justify;
+  margin-bottom: 0;
+  line-height: 27px;
+  color: #000;
+}
+
+.doctor_slider {
+  display: flex;
+}
+
+.head2 {
+  text-align: center;
+  padding: 10px 12px 10px;
+}
+
+.doctor_block_title {
+  position: relative;
+  height: 80px;
+}
+
+.head2::after {
+  position: absolute;
+  content: " ";
+  background-color: blue;
+  top: 75%;
+  left: 42%;
+  width: 220px;
+  height: 2px;
+}
+
+/**main body CSS code end from here**/
+
+/**Doctor slide CSS code start from here**/
+.slide_div_style {
+  width: 95%;
+  margin: 0 28px;
+}
+
+.doctor_slider_div {
+  margin: 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  height: 335px;
+}
+
+.doctor_image {
+  width: 100%;
+}
+
+.doctor_image img {
+  width: 100%;
+  height: 200px;
+}
+
+.doctor_info {
+  width: 100%;
+}
+
+.doctor_info h4 {
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
+  color: blue;
+  font-weight: 600;
+}
+
+.doctor_info h6 {
+  font-size: 15px;
+  text-align: center;
+  color: #000;
+}
+
+.doctor_info p {
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+}
+/**Doctor slide CSS code end from here**/
+
+.service_category {
+  display: flex;
+  align-items: center;
+}
+.service_category {
+  background-color: #00acf8d6;
+  height: 80px;
+  margin: 0 20px 15px;
+  border-radius: 4px;
+  width: 30%;
+}
+
+.service_category img {
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+}
+
+.service_category h4 {
+  margin-bottom: 0;
+  font-size: 16px;
+  padding: 10px 12px 10px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.service_category_flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.row.myRow {
+  background-color: #2c439f;
+  padding: 20px 15px 20px;
+  height: 200px;
+  margin: 0 10px 20px;
+  width: 100%;
+}
+
+.hospital_info_block {
+  position: relative;
+}
+
+.hospital_info_block h2 {
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+}
+
+.hospital_info_block h4 {
+  text-align: center;
+  color: #fff;
+}
+.hospital_info_block::after {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  width: 200px;
+  height: 2px;
+  transform: rotate(90deg);
+  left: 55%;
+  top: 55%;
+}
+
+.gallary_image_block {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image_panel_flex {
+  margin: 10px 10px 10px;
+}
+
+.image_panel_flex img {
+  width: 345px;
+  height: auto;
+  transition: all 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.image_panel_flex img:hover {
+  padding: 3px;
+}
+
+.reason_block {
+  position: relative;
+  margin: 20px 10px 10px;
+}
+
+.reason_block h2 {
+  font-weight: 600;
+  font-size: 25px;
+  padding: 10px 12px 10px;
+}
+
+.reason_block p {
+  letter-spacing: 2px;
+  color: grey;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 12px 10px;
+}
+
+.reason_block p::after {
+  position: absolute;
+  content: "";
+  background-color: darkred;
+  width: 100px;
+  top: 83%;
+  left: 17%;
+  height: 1px;
+  opacity: 0.6;
+}
+
+.reason_points_key {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.key_img_text p {
+  text-align: center;
+}
+
+.key_img_text p img {
+  width: 50px;
+  height: 50px;
+}
+
+.key_img_text h2 {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.video_container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.video_container_flex {
+  margin: 5px 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  width: 25%;
+  position: relative;
+  border-radius: 4px;
+}
+
+.video_frame iframe {
+  width: 100%;
+  height: auto;
+}
+
+.video_description mark {
+  background-color: darkblue;
+  border-radius: 4px;
+  padding: 5px;
+  color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.video_description h2 {
+  padding: 8px 10px 8px;
+  font-size: 17px;
+  color: blue;
+}
+.video_description p {
+  padding: 8px 10px 8px;
+  font-size: 15px;
+  color: purple;
+}
