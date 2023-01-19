@@ -45,6 +45,7 @@ body {
   top: 0%;
   background-color: teal;
   width: 1080px;
+  z-index: 1;
 }
 
 .main_body {
@@ -124,6 +125,137 @@ body {
   font-size: 20px;
 }
 
+/**Footer page CSS code start from here**/
 .footer_section {
   background-color: black;
+  border-radius: 4px;
 }
+
+.footer_title {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 12px 10px;
+  height: auto;
+}
+
+.footer_title h2 {
+  text-align: center;
+  color: #fff;
+  padding: 8px 10px 8px;
+}
+
+.footer_title p {
+  padding: 8px 10px 8px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+/**Footer page CSS code start from here**/
+
+/**Doctor page CSS code start from here**/
+
+.doctor_form {
+  padding: 10px 12px 10px;
+  box-shadow: 0 0 2px rgb(0, 0, 0.1);
+  width: 50%;
+  position: relative;
+  height: auto;
+}
+
+.doctor_form input[type="text"],
+input[type="file"],
+input[type="email"],
+select {
+  padding: 6px 8px 6px;
+  width: 95%;
+}
+
+.form_tile {
+  position: relative;
+}
+
+.form_tile h4 {
+  text-align: center;
+  padding: 10px 12px 10px;
+}
+
+.form_tile h2 {
+  text-align: center;
+  padding: 10px 12px 10px;
+  font-size: 20px;
+}
+
+.form_tile h4::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 30%;
+  width: 200px;
+  height: 2px;
+  border-top-left-radius: 4px;
+  background-color: blue;
+}
+
+.form_tile h2::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 44%;
+  width: 130px;
+  height: 2px;
+  border-top-left-radius: 4px;
+  background-color: blue;
+}
+
+.add_doctor button {
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  background-color: darkblue;
+  color: #fff;
+}
+
+.doctor_form label {
+  padding: 4px 6px 4px;
+}
+
+.doctor_form input[type="submit"] {
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  background-color: darkblue;
+  color: #fff;
+  width: 100px;
+  margin: 5px 5px 5px;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+/**Doctor page CSS code end from here**/

@@ -1,3 +1,10 @@
+<?php
+include_once 'library/session.php';
+Session::checkSession();
+?>
+<?php include_once 'library/database.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -98,7 +105,7 @@
                     <div class="admin_info">
                         <h2>Shakawat Hosen Saikat</h2>
                         <img src="images/saikat.jpg" alt="no images">
-                        <a href="">Log out</a>
+                        <a href="logout.php">Log out</a>
                     </div>
                 </div>
 

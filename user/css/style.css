@@ -670,3 +670,37 @@ body {
 }
 
 /**About page CSS code end from here**/
+
+/**Doctor page CSS code start from here**/
+
+.all_doctor {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card.customCard {
+  margin: 8px 8px 8px;
+}
+
+.markButton {
+  background-color: darkblue;
+  padding: 3px;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.find_doctor select {
+  padding: 5px;
+}
+
+.find_doctor label {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.find_doctor {
+  padding: 10px 12px 10px;
+}
+
+/**Doctor page CSS code start from here**/

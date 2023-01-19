@@ -105,7 +105,7 @@
 
                     <li>
                         <div class="menu_link">
-                            <a href="">Career</a>
+                            <a href="../user/viewsFile/career.php">Career</a>
                         </div>
                     </li>
 

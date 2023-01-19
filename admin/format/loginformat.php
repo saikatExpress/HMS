@@ -18,14 +18,14 @@ class loginpannel
         $this->fm = new Format();
     }
 
-    public function login($number, $pass)
+    public function login($email, $pass)
     {
         $pass = $this->fm->validation($pass);
 
-        if (empty($number) || empty($pass)) {
+        if (empty($email) || empty($pass)) {
             echo "Fields were empty";
         } else {
-            $query = "SELECT * FROM user_reg WHERE mobile = '$number' AND password='$pass'";
+            $query = "SELECT * FROM admin_reg WHERE email = '$email' AND admin_pass='$pass'";
             $result = $this->db->select($query);
             if ($result != false) {
                 $value = $result->fetch_assoc();
@@ -34,8 +34,8 @@ class loginpannel
                 Session::set("id", $value['id']);
                 Session::set("firtsname", $value['firstname']);
                 Session::set("lastname", $value['lastname']);
-                Session::set("mobile", $value['mobile']);
                 Session::set("email", $value['email']);
+                Session::set("mobile", $value['phone_number']);
                 header("Location: index.php");
             } else {
                 $msg = "Number and password does not match";

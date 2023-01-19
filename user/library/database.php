@@ -6,7 +6,7 @@ class DataBase
     public $host = "localhost";
     public $user = "root";
     public $pass = "";
-    public $dbname = "safe";
+    public $dbname = "hospital";
 
     public $link;
     public $error;
